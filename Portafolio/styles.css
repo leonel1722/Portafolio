@@ -74,7 +74,7 @@ nav a:hover {
     margin: 50px;
     background: #111A1F;
     flex-direction: column;
-    color: #8DD2FF;
+    color: #669CBA;
     font-weight: bolder;
     border-radius: 15px;
 }
@@ -83,8 +83,23 @@ footer {
     display: flex;
     background: #111A1F;
     font-weight: bolder;
-    color: #8DD2FF;
+    color: #669CBA;
     justify-content: center;
     margin: 0px;
     border-radius: 5px;
+}
+
+p {
+    font-weight: bolder;
+    font-size: large;
+}
+
+.lk {
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    color: #669CBA;
+}
+a:hover {
+    color: white;
 }
