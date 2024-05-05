@@ -93,13 +93,23 @@ p {
     font-weight: bolder;
     font-size: large;
 }
-
+ a {
+    display: flex;
+    justify-content: center;
+    color: black;
+ }
 .lk {
-    width: fit-content;
     text-align: center;
     text-decoration: none;
-    color: #669CBA;
 }
 a:hover {
-    color: white;
+    color: #8DD2FF;
+}
+h4 {
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    background: #45677D;
+    padding: 18px;
+    border-radius: 15px;
 }
